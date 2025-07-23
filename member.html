@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header style="text-align: center;">
+        <figure>
+            <h1>Anmelde Formular
+        </figure>
+        </h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./member.html">Sign in</a>
+            <a href="./ueber_uns.html">Über Uns</a>
+        </nav>
+    </header>
+
+
+    <form action="http://backend.quatsch">
+        <h2>Persönliche Informationen</h2>
+        <label for="first_name">Vorname:</label>
+        <p><input type="text" name="first_name" id="first_name" /></p>
+        <label for="last_name">Nachname:</label>
+        <p><input type="text" name="last_name" id="last_name" /></p>
+        <label for="email">Email:</label>
+        <p><input type="email" name="email" id="email" /></p>
+        <label for="bday">Geburtstag:</label>
+        <p><input type="date" name="bday" id="bday" /></p>
+        <label for="tel">Telefon:</label>
+        <p><input type="tel" name="tel" id="tel" /></p>
+        <br>
+        <div style="display:flex; flex-direction: column; width: 50%">
+            <p style="font-size: 19px">Deine Besondere Fähigkeiten:</p>
+            <label><input type="checkbox" name="Teamarbeit"> Teamarbeit</label>
+            <label><input type="checkbox" name="Pünktlichkeit"> Pünktlichkeit</label>
+            <label><input type="checkbox" name="Kommunikation"> Kommunikation</label><br>
+
+        </div>
+        <p>Bevorzugter Unterrichtszeitraum:</p>
+        <input type="radio" name="zeit" id="Morgens" value="Morgens" />
+        <label for="Morgens">Morgens</label>
+        <input type="radio" name="zeit" id="Mittags" value="Mittags" />
+        <label for="Mittags">Mittags</label>
+        <input type="radio" name="zeit" id="Abends" value="Abends" />
+        <label for="Abends">Abends</label><br>
+        <br>
+        <label for="comment">Type your comment here:</label> <br />
+        <textarea id="comment" name="comment" rows="10" cols="50">
+
+      </textarea>
+        <br />
+        <p><input type="reset" value="Formular löschen" /></p>
+        <p><input type="submit" value="Absenden" /></p>
+    </form>
+</body>
+
+</html>
