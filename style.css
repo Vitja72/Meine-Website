@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    
+}
+nav{
+    background-color: blue
+}
+ul{
+    background-color: darkcyan
+}
+a{
+    background-color: aqua; 
+    color: black;
+}
